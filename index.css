@@ -8,27 +8,54 @@
 }
 
 /* background image */
-body {
+#landing {
+	background-image: url(https://images.pexels.com/photos/7828670/pexels-photo-7828670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/* navbar background image to appear floating in landing page */
+.navbar {
+/*	margin-bottom: -104px;
+	z-index: 1;*/
 	background-image: url(https://images.pexels.com/photos/7828670/pexels-photo-7828670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-width: 100vh;
-	min-height: 100vh;
 }
 
-/* background color of profile text description */
-/*#fullstackdeveloper {
-	background-color: #ffd700;
-}*/
+/* text color of profile text description */
+#fullstackdeveloper h2 {
+	color: #ffffff;
+}
 
 /* Crops profile picture */
 /* Flips the profile picture scaleX */
 #julestobias {
-	width: 400px;
-	height: 400px;
+	width: 50vw;
+	height: 50vh;
 	object-fit: cover;
 	object-position: 15% 5%;
 /*	opacity: 70%;*/
 	brightness: 0.3;
 	transform: scaleX(-1.0);
+}
+
+/* width in bootstrap card */
+#projects .card {
+	width: 18rem;
+}
+
+/* Background of projects section */
+#projects {
+	background-color: #616161;
+}
+
+/*Background of tools section*/
+#tools {
+	background-color: #616161;
+}
+
+#tools div img {
+	height: 10vh;
 }
