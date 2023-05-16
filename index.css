@@ -2,4 +2,16 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Bree Serif', serif;
+	color: #73926c
+}
+
+body {
+	background-image: url(https://images.pexels.com/photos/7828670/pexels-photo-7828670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#julestobias {
+	background-color: #ffd700;
 }
